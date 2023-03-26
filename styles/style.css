@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Aca empiezan los estilos del header */
+header {
+  background-color: yellowgreen;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 150px;
+  background-color: rebeccapurple;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+header nav ul li {
+  background-color: seagreen;
+  padding: 10px;
+}
