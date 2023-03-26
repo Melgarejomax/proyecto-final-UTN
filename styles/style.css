@@ -79,3 +79,22 @@ header nav ul li {
     margin: 10px;
     padding: 10px;
   }
+/* Aca empiezan los media querie */
+  
+@media (max-width: 480px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+    background-color:chartreuse;
+  }
+
+  main {
+    background-color:darkblue;
+    color: white;
+    padding: 20px;
+  }
+
+  footer {
+    background-color: crimson;
+  }
+}
