@@ -8,7 +8,6 @@
 /* Aca empiezan los estilos del header */
 header {
   height: 200px;
-  background-color: yellowgreen;
   padding: 15px;
   display: flex;
   justify-content: space-between;
@@ -77,6 +76,9 @@ h3{
   -webkit-box-shadow: 2px 7px 33px 1px rgba(53,26,115,0.9);
   -moz-box-shadow: 2px 7px 33px 1px rgba(53,26,115,0.9);
 }
+.item-grid:hover{
+  background-color: rgba(58, 111, 217, 0.5);
+}
 
 .item-grid img {
   width: 100%;
@@ -114,6 +116,12 @@ h3{
   }
   a {
     text-decoration: none;
+  }
+  footer button {
+    text-decoration: none;
+    width: 100px;
+    font-size: 20px;
+    background-color: aqua;
   }
 /* Aca empiezan los media querie */
   

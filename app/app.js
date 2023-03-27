@@ -36,3 +36,13 @@ llamadaAApi
   .catch((err) => {
     console.log(err);
   });
+
+//boton de inicio
+const btn = document.querySelector('#subirBtn');
+
+btn.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
