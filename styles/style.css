@@ -15,6 +15,7 @@ header {
   box-shadow: 2px 7px 33px 1px rgba(53,26,115,0.9);
   -webkit-box-shadow: 2px 7px 33px 1px rgba(53,26,115,0.9);
   -moz-box-shadow: 2px 7px 33px 1px rgba(53,26,115,0.9);
+  background-color: rgba(138, 21, 192, 0.522);
 }
 .saludo {
   width:250px;
@@ -52,8 +53,14 @@ header nav ul li {
   -webkit-box-shadow: 2px 7px 33px 1px rgba(53,26,115,0.9);
   -moz-box-shadow: 2px 7px 33px 1px rgba(53,26,115,0.9);
 }
+header nav ul li:hover {
+  background-color: rgba(22, 165, 48, 0.522);
+}
 
 /* Aca empiezan los estilos del main */
+main{
+  background-color: rgba(22, 165, 48, 0.522);
+}
 h3{
   font-size: 35px;
   text-align: center;
@@ -77,7 +84,7 @@ h3{
   -moz-box-shadow: 2px 7px 33px 1px rgba(53,26,115,0.9);
 }
 .item-grid:hover{
-  background-color: rgba(58, 111, 217, 0.5);
+  background-color: rgba(138, 21, 192, 0.522);
 }
 
 .item-grid img {
@@ -87,7 +94,7 @@ h3{
 
   /* Aca empiezan los estilos del footer */
   footer {
-    background-color: teal;
+    background-color: rgba(138, 21, 192, 0.522);
     padding: 30px;
     display: flex;
     justify-content:space-between;
@@ -114,6 +121,9 @@ h3{
     text-align: center;
 
   }
+  footer ul li:hover{
+    background-color: rgba(22, 165, 48, 0.522);
+  }
   a {
     text-decoration: none;
   }
@@ -121,7 +131,13 @@ h3{
     text-decoration: none;
     width: 100px;
     font-size: 20px;
-    background-color: aqua;
+    margin-left: 25px;
+    background-color: rgba(138, 21, 192, 0.522);
+
+  }
+
+  footer button:hover{
+    background-color: rgba(22, 165, 48, 0.522);
   }
 /* Aca empiezan los media querie */
   
