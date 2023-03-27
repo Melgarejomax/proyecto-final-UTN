@@ -23,6 +23,7 @@ header {
 }
 .logo {
   width:275px;
+  margin-right: -140px;
 }
 
 header div{
@@ -35,18 +36,22 @@ header ul {
   list-style: none;
   display: flex;
   gap: 10px;
+  align-items: center;
 }
 
 header nav ul li {
+  height: 60px;
   display: block;
   justify-content: space-between;
-  background-color: seagreen;
   padding: 10px;
   font-size: 30px;
   padding: 15px;
   list-style: none;
   border-radius: 20px;
   margin-right: 40px;
+  box-shadow: 2px 7px 33px 1px rgba(53,26,115,0.9);
+  -webkit-box-shadow: 2px 7px 33px 1px rgba(53,26,115,0.9);
+  -moz-box-shadow: 2px 7px 33px 1px rgba(53,26,115,0.9);
 }
 
 /* Aca empiezan los estilos del main */
@@ -56,7 +61,6 @@ h3{
 }
 #container {
   min-height: 100vh;
-  background-color: violet;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -70,6 +74,9 @@ h3{
   padding: 20px;
   text-align: center;
   border-radius: 10px;
+  box-shadow: 2px 7px 33px 1px rgba(53,26,115,0.9);
+  -webkit-box-shadow: 2px 7px 33px 1px rgba(53,26,115,0.9);
+  -moz-box-shadow: 2px 7px 33px 1px rgba(53,26,115,0.9);
 }
 
 .item-grid img {
@@ -84,6 +91,16 @@ h3{
     display: flex;
     justify-content:space-between;
     align-items: center;
+  }
+  footer img {
+    width: 80px;
+}
+  .credit{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 1100px;
   }
   
   footer ul {
