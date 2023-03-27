@@ -145,13 +145,16 @@ h3{
   header {
     flex-direction: column;
     gap: 10px;
+    background-color: rgba(22, 165, 48, 0.522);
   }
 
   main {
     color: white;
     padding: 20px;
+    background-color: rgba(138, 21, 192, 0.522);
   }
 
   footer {
+    background-color: rgba(22, 165, 48, 0.522);
   }
 }
