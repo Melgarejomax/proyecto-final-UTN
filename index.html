@@ -9,24 +9,24 @@
   <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
-  <header>
+  <header id="#init">
     <div>
       <img class="saludo" src="assets/Portal.png" alt="saludo rick and morty" />
       <img class="logo" src="assets/logoRick.png" alt="logotipo rick and morty">
     </div>
     <nav>
       <ul>
-        <li>Inicio</li>
-        <li>Proyectos</li>
-        <li>Contacto</li>
+        <li><a href="#init">Inicio</a></li>
+        <li><a href="#Characters">Characters</a></li>
+        <li><a href="#Info">Info</a></li>
       </ul>
     </nav>
   </header>
-  <main> 
+  <main id="Characters"> 
     <h3>CHARACTERS</h3>
     <div id="container"></div>
   </main>
-  <footer>
+  <footer id="Info">
     <img src="assets/festejoRick.png" alt="festejo rick and morty">
     <div class="credit">
     <p>Creado por Melgarejo Maximiliano</p>
@@ -35,8 +35,9 @@
     </div>
     
     <ul>
-      <li>Github</li>
+      <li><a href="https://github.com/Melgarejomax">GitHub</a></li>
       <li>Instagram</li>
+      <li><a href="#init">Inicio</a></li>
     </ul>
   </footer>
   <script src="app/app.js"></script>
