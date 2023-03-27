@@ -2,21 +2,33 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* Aca empiezan los estilos del header */
 header {
+  height: 200px;
   background-color: yellowgreen;
-  padding: 30px;
+  padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 2px 7px 33px 1px rgba(53,26,115,0.9);
+  -webkit-box-shadow: 2px 7px 33px 1px rgba(53,26,115,0.9);
+  -moz-box-shadow: 2px 7px 33px 1px rgba(53,26,115,0.9);
+}
+.saludo {
+  width:250px;
+  margin-left: 30px;
+}
+.logo {
+  width:275px;
 }
 
-header img {
-  width: 150px;
-  background-color: rebeccapurple;
+header div{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
 }
 
 header ul {
@@ -26,13 +38,24 @@ header ul {
 }
 
 header nav ul li {
+  display: block;
+  justify-content: space-between;
   background-color: seagreen;
   padding: 10px;
+  font-size: 30px;
+  padding: 15px;
+  list-style: none;
+  border-radius: 20px;
+  margin-right: 40px;
 }
 
 /* Aca empiezan los estilos del main */
+h3{
+  font-size: 35px;
+  text-align: center;
+}
 #container {
-  /* min-height: 100vh; */
+  min-height: 100vh;
   background-color: violet;
   display: flex;
   flex-wrap: wrap;
@@ -65,19 +88,6 @@ header nav ul li {
   
   footer ul {
     list-style: none;
-  
-  }
-  
-  .lista-uno li {
-    background-color: turquoise;
-    margin: 10px;
-    padding: 10px;
-  }
-  
-  .lista-dos li {
-    background-color: slateblue;
-    margin: 10px;
-    padding: 10px;
   }
 /* Aca empiezan los media querie */
   
